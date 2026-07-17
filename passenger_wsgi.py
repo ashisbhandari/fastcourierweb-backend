@@ -1,7 +1,10 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.dirname(__file__))
+project_home = "/home2/ashishbh/fastcourierbirtamode.com.np"
+
+if project_home not in sys.path:
+    sys.path.insert(0, project_home)
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fccs.settings")
 

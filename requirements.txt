@@ -1,4 +1,4 @@
-Django>=5.2.10
+Django==4.2.30
 djangorestframework
 djangorestframework-simplejwt
 django-cors-headers
@@ -12,3 +12,4 @@ geoip2
 geopy
 user-agents
 requests
+PyMySQL==1.1.1
