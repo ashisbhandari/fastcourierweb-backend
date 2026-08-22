@@ -12,7 +12,8 @@ class Shipment(models.Model):
 
     PAYMENT_METHODS = [
         ('Cash', 'Cash'),
-        ('Card', 'Card'),
+        ('Credit', 'Credit'),
+        ('Cash on delivery', 'Cash on Delivery'),
         ('Online Payment', 'Online Payment'),
     ]
 
